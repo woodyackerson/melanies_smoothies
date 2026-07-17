@@ -48,5 +48,8 @@ import requests
 smoothiefroot_response = requests.get("https://my.smoothiefroot.com/api/fruit/watermelon")  
 
 # Display the response text or JSON in Streamlit
-st.text(smoothiefroot_response.text)
+st.text(smoothiefroot_response.json())
+
+
+
 
